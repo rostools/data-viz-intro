@@ -62,8 +62,8 @@ request will be squashed into one commit.
   project from the template.
   **You should not modify this file directly.**
   - `.cz.toml`:
-  [Commitizen](https://commitizen-tools.github.io/commitizen/)
-  configuration file for managing versions and changelogs.
+    [Commitizen](https://commitizen-tools.github.io/commitizen/)
+    configuration file for managing versions and changelogs.
 - `CHANGELOG.md`: Changelog file for tracking changes in the project.
 - `.pre-commit-config.yaml`: [Pre-commit](https://pre-commit.com/)
   configuration file for managing and running checks before each commit.
