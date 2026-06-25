@@ -16,7 +16,7 @@ jobs:
     concurrency:
       group: build-website-group
       cancel-in-progress: true
-    
+
     steps:
       # This is a useful security step to check for unexpected outbound calls from the runner,
       # which could indicate a compromised token or runner.
@@ -31,9 +31,7 @@ jobs:
       - name: Spell check repo
         uses: crate-ci/typos@37bb98842b0d8c4ffebdb75301a13db0267cef89 # v1.47.2
 
-      
+
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@8a96df13519ee81fd526f2dfca5962811136661b # v2.2.0
-
-      
